@@ -1,0 +1,97 @@
+/* Targeted styles for Movie Catalogue, inspired by Inception */
+.navbar-custom {
+    background-color: #0d1b2a; /* Deep blue, like Inception's dream tones */
+    padding: 0.75rem 1rem;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #40c4ff; /* Light cyan for techy vibe */
+    font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(64, 196, 255, 0.5); /* Subtle glow */
+}
+
+.movie-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.03); /* Subtle zoom, less aggressive than before */
+    box-shadow: 0 4px 15px rgba(64, 196, 255, 0.2); /* Cyan shadow */
+}
+
+.movie-card .card-img-top {
+    height: 280px;
+    object-fit: cover;
+}
+
+.movie-card .card-title {
+    color: #977272;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.movie-card .card-text {
+    color: #8c9fa8; /* Soft gray for contrast */
+    font-size: 0.85rem;
+}
+
+.search-bar .form-control {
+    background-color: #1e2a38; /* Darker input field */
+    border-color: #40c4ff;
+    color: #d6d4d4;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar .form-control::placeholder {
+    color: #78909c;
+}
+
+.search-bar .btn-primary {
+    background-color: #40c4ff;
+    border-color: #40c4ff;
+    border-radius: 0 5px 5px 0;
+    font-weight: 500;
+}
+
+.search-bar .btn-primary:hover {
+    background-color: #0288d1;
+    border-color: #0288d1;
+}
+
+.btn-custom-primary {
+    background-color: #40c4ff;
+    border-color: #40c4ff;
+    font-size: 0.9rem;
+}
+
+.btn-custom-primary:hover {
+    background-color: #0288d1;
+    border-color: #0288d1;
+}
+
+.btn-custom-success {
+    background-color: #26a69a; /* Teal, less bright than green */
+    border-color: #26a69a;
+    font-size: 0.9rem;
+}
+
+.btn-custom-danger {
+    background-color: #ef5350;
+    border-color: #ef5350;
+    font-size: 0.9rem;
+}
+
+/* Ensure error page aligns */
+.error-alert {
+    background-color: #2e1c1c;
+    border-color: #ef5350;
+    color: #ffffff;
+}
